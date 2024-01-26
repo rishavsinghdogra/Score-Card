@@ -31,6 +31,7 @@ It is noteworthy that this project is an emulation of the [Result Summary Compon
 ## Snapshots 
 
 ![image](https://github.com/rishavsinghdogra/Score-Card/assets/122353817/de141f6c-545f-423d-b8b5-298ec85bc71a)
+#
 ![image](https://github.com/rishavsinghdogra/Score-Card/assets/122353817/21ec8177-a34a-4cf8-b207-4bea192ae3d1)
 
 
