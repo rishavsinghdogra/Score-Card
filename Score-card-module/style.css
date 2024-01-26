@@ -1,0 +1,300 @@
+*{
+   font-family: Hanken Grotesk;
+}
+/* ----------------------------------------------------------------------------------------------- */
+/* start of complete flex module */
+
+@media(min-width:375px){
+    #completemodule{
+        display:flex;
+    }
+}
+/* ----------------------------------------------------------------------------------------------- */
+/* start of score pallet */
+#sc{
+    
+    position: relative;
+    background:linear-gradient(to bottom,#633ffe,#312cea);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    height: 300px;
+    width: 230px;
+    border-radius: 9%;
+    text-align: center;
+    color:white;
+    z-index: 1;
+}
+
+#scheading{
+    position: relative;
+    top: 10px;
+    margin: 0;
+    font-size: 16px;
+    color: #beb0fe;
+
+}
+#scscore{
+
+    position:absolute;
+    background:linear-gradient(to bottom,#4923cd,#4734f0);
+    height:130px;
+    width:130px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;   
+    transform: translate(-50%,-69%); 
+}
+
+#scresult{
+    position :absolute;
+    top: 64%;
+    width:99%;
+    font-size: 16px;
+}
+
+#numscscore{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    margin:0;
+}
+#footer{
+    position:absolute;
+    left:40px;
+    top: 77%;
+    width:160px;
+    font-size: 11px;
+    color: #beb0fe;
+}
+#sc:hover{
+    transform: scale(1.2,1.2);
+    transition : transform 3s ease;
+}
+/* start of 2nd pallate */
+#smry{
+    
+    position: relative;
+    background-color: whitesmoke;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    height: 300px;
+    width: 230px;
+    border-radius: 9%;
+    text-align: center;
+    color:black;
+}
+#smryhdng{
+    position: absolute;
+    font-weight: bold;
+    font-size: 16px;
+    margin:0;
+    top:5%;
+    left:12.5%;
+}
+/* ----------------------------------------------------------------------------------------------- */
+/* Pink reaction pallet */
+
+#reactionpallet{
+    position: absolute;
+    background-color:#e16a6a44;
+    top:15%;
+    width: 75%;
+    left:12.5%;
+    height :40px;
+    border-radius:10px;
+}
+#reaction{
+    position: absolute;
+    display:inline;
+    margin:0;
+    left:1%;
+    top:8%;
+    width :100px;
+    color :#ff5555;
+    font-size :12px;
+    font-weight:700;
+    
+}
+
+#reaction::before{
+    display : inline;
+    position: relative;
+    top:5px;
+    height:11px;
+    width: 11px;
+    content: url("icon-reaction.svg");
+}
+.score{
+    
+    position : absolute;
+    color:black;
+    left : 100px;
+    top : 7px;
+
+}
+.Tscore{
+    position: absolute;
+    display :block;
+    color: grey;
+    left: 114px;
+    bottom: 1px;
+    width:25px;
+}
+
+#reactionpallet:hover{
+    transform: scale(1.2,1.2);
+    transition: transform 1s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+/* ----------------------------------------------------------------------------------------------- */
+/* Yellow Memory pallet */
+#memorypallet{
+    position: absolute;
+    background-color:#fecd6bac;
+    top:30%;
+    width: 75%;
+    left:12.5%;
+    height :40px;
+    border-radius:10px;
+}
+
+#memory{
+    position: absolute;
+    display:inline;
+    margin:0;
+    left:1%;
+    top:8%;
+    width:100px;
+    color :#ffb21e;
+    font-size :12px;
+    font-weight:700;
+    
+}
+
+#memory::before{
+    display : inline;
+    position: relative;
+    top:5px;
+    height:11px;
+    width: 11px;
+    content: url("icon-memory.svg");
+}
+
+#memorypallet:hover{
+    transform: scale(1.2,1.2);
+    transition: transform 1s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+/* ----------------------------------------------------------------------------------------------- */
+/* Green verbal pallet */
+#verbalpallet{
+    position: absolute;
+    background-color:rgba(27, 224, 201, 0.472);
+    top:45%;
+    width: 75%;
+    left:12.5%;
+    height :40px;
+    border-radius:10px;
+}
+
+#verbal{
+    position: absolute;
+    display:inline;
+    margin:0;
+    left:1%;
+    top:8%;
+    width:100px;
+    color :#00bb8f;
+    font-size :12px;
+    font-weight:700;
+    
+}
+
+#verbal::before{
+    display : inline;
+    position: relative;
+    top:5px;
+    height:11px;
+    width: 11px;
+    content: url("icon-verbal.svg");
+}
+
+#verbalpallet:hover{
+    transform: scale(1.2,1.2);
+    transition: transform 1s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* blue visual pallet */
+#visualpallet{
+    position: absolute;
+    background-color:#1125d638;
+    top:60%;
+    width: 75%;
+    left:12.5%;
+    height :40px;
+    border-radius:10px;
+}
+
+#visual{
+    position: absolute;
+    display:inline;
+    margin:0;
+    left:1%;
+    top:8%;
+    width:100px;
+    color :#1126d6;
+    font-size :12px;
+    font-weight:700;
+    
+}
+
+#visual::before{
+    display : inline;
+    position: relative;
+    top:5px;
+    height:11px;
+    width: 11px;
+    content: url("icon-visual.svg");
+}
+
+#visualpallet:hover{
+    transform: scale(1.2,1.2);
+    transition: transform 1s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+/* ----------------------------------------------------------------------------------------------- */
+/* Continue button */
+
+#button{
+    position: absolute;
+    background-color: #303b59;
+    height: 35px;
+    width:60%;
+    left:20%;
+    top:80%;
+    border-radius:20px;
+}
+
+#continue{
+    position :absolute;
+    margin:0;
+    color: white;
+    font-weight: 400;
+    left:25%;
+    top:6px;
+}
+
+#button:hover{
+    transform: scale(1.2,1.2);
+    transition: transform 1s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+#button:active{
+    transform:scale(1.1,1.1) translateY(10px);
+    
+}
+/* ----------------------------------------------------------------------------------------------- */
+
+
